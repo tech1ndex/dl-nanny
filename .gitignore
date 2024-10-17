@@ -145,5 +145,5 @@ tests/reports
 # Ruff
 .ruff_cache
 
-# Poetry Lock
-poetry.lock
+# Ignore Locks
+*.lock
