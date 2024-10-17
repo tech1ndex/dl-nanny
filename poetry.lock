@@ -101,6 +101,17 @@ tomli = {version = "*", optional = true, markers = "python_full_version <= \"3.1
 toml = ["tomli"]
 
 [[package]]
+name = "deluge-client"
+version = "1.10.2"
+description = "Simple Deluge Client"
+optional = false
+python-versions = "*"
+files = [
+    {file = "deluge-client-1.10.2.tar.gz", hash = "sha256:3881aee3c4e0ca9dd8a56b710047b837e1d087a83e421636a074771f92a9f1b5"},
+    {file = "deluge_client-1.10.2-py3-none-any.whl", hash = "sha256:ea052663c0ed3a2247517d316c3784d70c83279dd9e088623fd06b164768f4f1"},
+]
+
+[[package]]
 name = "distlib"
 version = "0.3.7"
 description = "Distribution utilities"
@@ -429,4 +440,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8.1"
-content-hash = "5d159e2248c28dbcc4a53e20b797f102949a09dcaa31566330d35d5bb241dc87"
+content-hash = "233a80c7745e433ef7169613a881d378e365dd4c20a3089f5f1541aaed0c5526"

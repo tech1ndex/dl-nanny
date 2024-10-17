@@ -1,7 +1,13 @@
 from deluge_client import DelugeRPCClient
+import os
 
-# Connect to the Deluge daemon
-client = DelugeRPCClient('127.0.0.1', 58846, 'username', 'password')
+# Connect to the remote Deluge daemon
+HOST = "192.168.11.100"
+PORT = 58846
+USERNAME = os.environ.get('DELUGE_USERNAME')
+PASSWORD = os.environ.get('DELUGE_PASSWORD')
+
+client = DelugeRPCClient(HOST, PORT, USERNAME, PASSWORD)
 client.connect()
 
 # Get the list of torrents
