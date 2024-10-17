@@ -13,16 +13,16 @@ omit = [
 
 
 [tool.poetry]
-name = "project-name"
+name = "dl-nanny"
 version = "0.1.0"
-description = "A template Poetry project structure."
+description = "A simple tool to manage downloads."
 
 packages = [
     { include = "dl-nanny", from = "src" },
 ]
 
-authors = ["Lari Liuhamo <lari.liuhamo+pypi@gmail.com>",]
-maintainers = ["Lari Liuhamo <lari.liuhamo+pypi@gmail.com>",]
+authors = ["Victor Bajada <bajada.victor@gmail.com>",]
+maintainers = ["Victor Bajada <bajada.victor@gmail.com>",]
 
 include = []
 license = "MIT"
@@ -52,6 +52,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
+deluge-client = "^1.10.0"
 
 
 [tool.poetry.group.dev.dependencies]
