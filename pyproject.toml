@@ -56,7 +56,7 @@ deluge-client = "^1.10.0"
 
 
 [tool.poetry.group.dev.dependencies]
-mypy = "^1.12.1"
+mypy = "^1.13.0"
 
 
 [tool.poetry.group.linters]
