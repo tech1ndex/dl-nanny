@@ -148,3 +148,7 @@ tests/reports
 # Ignore Locks
 *.lock
 poetry.lock
+
+#Ignore Env
+
+.env
