@@ -648,8 +648,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10.0"
-<<<<<<< Updated upstream
 content-hash = "b47289c654b70dc1d303cbca23c5ae8b9a6c6093d40d25171fca3bf941c8a456"
-=======
-content-hash = "f361ce81b172a32e9708eb9f986f254b64dd1ce773c3e12804c7b49c75f6bb94"
->>>>>>> Stashed changes

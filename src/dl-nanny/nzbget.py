@@ -1,5 +1,4 @@
-
-import pynzbget
+from pynzbget import NZBGet
 import os
 
 nzbget_url = os.getenv("NZBGET_URL", "http://192.168.11.100:6789")
