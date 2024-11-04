@@ -13,12 +13,12 @@ omit = [
 
 
 [tool.poetry]
-name = "dl-nanny"
+name = "dlnanny"
 version = "0.1.0"
 description = "A simple tool to manage downloads."
 
 packages = [
-    { include = "dl-nanny", from = "src" },
+    { include = "dlnanny", from = "src" },
 ]
 
 authors = ["Victor Bajada <bajada.victor@gmail.com>",]
@@ -73,7 +73,7 @@ ruff = "^0.7.2"
 optional = true
 
 [tool.poetry.scripts]
-dl-nanny = "dl-nanny.main:main"
+dlnanny = "dlnanny.main:main"
 
 [tool.poetry.group.tests.dependencies]
 pytest = "^8.3.3"
