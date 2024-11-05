@@ -1,12 +1,8 @@
-import schedule
-import time
-import deluge
+
 
 def main():
-    get_torrents()
+    
+    print(ids)  # or logger function calls
 
-schedule.every(10).minutes.do(main)
-
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+if __name__ == "__main__":
+    main()
