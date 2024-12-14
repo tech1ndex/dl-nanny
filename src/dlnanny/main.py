@@ -1,8 +1,7 @@
-
+from dlnanny.sonarr import requeue_sonarr
 
 def main():
-    
-    print(ids)  # or logger function calls
+    requeue_sonarr()
 
 if __name__ == "__main__":
     main()
